@@ -1,0 +1,33 @@
+.mt-100 {
+
+    margin-top: 100px;
+}
+
+.accordion-button{
+
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+
+    background-color: #0d6dfd !important; 
+    color: white;
+    
+}
+
+.social{
+    display: flex;
+    column-gap: 10px;
+}
+
+.social a{
+
+    font-size: 40px;
+    transition: 0.1s;
+}
+
+.social a:hover{
+
+    transform: scale(1.1);
+}
+
